@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+* {
+	/*border: solid black 3px;*/
+}
+
 html {
 	font-size: 62.5%;
 }
@@ -55,43 +59,42 @@ body {
 	/*font-family: '', serif;*/
 	font-size: 1.6rem;
 	line-height: 1.5;
-	color: #4f4f4f
+	color: #4f4f4f;
 }
 
 section {
-	padding: 4% 0;
-	width: 80%;
-	border: 1px solid red;
+	width: 100%;
 }
 
 .button1, .button2, .button3, .button4, .button5, .button6 {
 	display: inline-block;
-	width: 150px;
+	width: 20%;
 	text-align: center;
 	padding: 5% 0;
 	border-radius: 10px;
-	border: 3px solid black;
-	transition: 2s;
-	justify-content: space-between;
-	align-items: center;
-	margin: 2%;
+	margin-left: 6.4%;
+	margin-right: 6.4%;
+	
 }
 
 .button1, .button4 {
 	background-color: pink;
+	
 }
 
 .button2, .button5 {
 	background-color: skyblue;
+	
 }
 
 .button3, .button6 {
 	background-color: yellow;
+	
 }
 
 header {
 	display: inline-block;
-	margin: 0;
+
 }
 
 h1 {
@@ -99,6 +102,8 @@ h1 {
 	float: right;
 	text-align: center;
 	font-size: 3.2rem;
+	margin-top: 10%;
+	margin-bottom: 5%;
 }
 
 header p {
@@ -117,20 +122,23 @@ header img{
 
 .about {
 	margin: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-top: 0;
+	margin-bottom: 0;
 	background-color: coral;
 	color: white;
-	display: inline-block;
-	width: 100%;
+	width: 80%;
 	text-align: center;
 	padding: 2% 0;
 	border-radius: 10px;
 	border: 3px solid black;
+	
 }
 
 .fire {
-	margin: 10%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 35%;
+	margin-right: 35%;
 	color: #4f4f4f;
 	display: inline-block;
 	width: 30%;
@@ -138,16 +146,18 @@ header img{
 	align-items: center;
 	justify-content: center;
 	padding: 2% 0;
-	border-radius: 10px;
-	border: white;
+	
 }
 
 .fire img {
-	width: 70%;
+	width: 50%;
 }
 
 .reservations {
-	margin: 10%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 35%;
+	margin-right: 35%;
 	color: #4f4f4f;
 	display: inline-block;
 	width: 30%;
@@ -155,16 +165,14 @@ header img{
 	align-items: center;
 	justify-content: center;
 	padding: 2% 0;
-	border-radius: 10px;
-	border: white;
+
 }
 
 .reservations img {
-	width: 70%
+	width: 50%
 }
 
 footer img {
 	width: 100%;
-	margin: 0 auto;
+	margin: 0;
 }
-{}
