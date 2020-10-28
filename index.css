@@ -47,23 +47,121 @@ table {
 	border-spacing: 0;
 }
 
+html {
+	font-size: 62.5%;
+}
+
+body {
+	/*font-family: '', serif;*/
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: #4f4f4f
+}
+
+section {
+	padding: 4% 0;
+	width: 80%;
+	border: 1px solid red;
+}
+
 .button1, .button2, .button3 {
 	display: inline-block;
-	width: 100px;
+	width: 30%;
 	text-align: center;
-	padding: 2% 0;
+	padding: 5% 0;
 	border-radius: 10px;
 	border: 3px solid black;
 	transition: 2s;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+	display: inline-block;
+	margin: 0;
+}
+
+h1 {
+	width: 50%;
+	float: right;
+	text-align: center;
+	font-size: 3.2rem;
+}
+
+header p {
+	font-size: 1.6rem;
+	width: 100%;
+	text-align: center;
+}
+
+header img{
+	float: left;
+	width: 30%;
+	border-radius: 150px;
+	margin: 10%;
 }
 
 .about {
-	margin: 90%;
-	color: coral;
+	margin: 10%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: coral;
+	color: white;
 	display: inline-block;
-	width: 100px;
+	width: 100%;
 	text-align: center;
 	padding: 2% 0;
 	border-radius: 10px;
 	border: 3px solid black;
+}
+
+.fire {
+	margin: 10%;
+	color: #4f4f4f;
+	display: inline-block;
+	width: 70%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 2% 0;
+	border-radius: 10px;
+	border: white;
+}
+
+.fire img {
+	width: 70%;
+}
+
+.reservations {
+	margin: 10%;
+	color: #4f4f4f;
+	display: inline-block;
+	width: 70%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 2% 0;
+	border-radius: 10px;
+	border: white;
+}
+
+.reservations img {
+	width: 70%
+}
+
+footer img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.button4, .button5, .button6 {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	padding: 5% 0;
+	border-radius: 10px;
+	border: 3px solid black;
+	transition: 2s;
+	justify-content: space-between;
+	align-items: center;
 }
