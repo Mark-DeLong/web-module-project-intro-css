@@ -47,8 +47,23 @@ table {
 	border-spacing: 0;
 }
 
+.button1, .button2, .button3 {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	padding: 2% 0;
+	border-radius: 10px;
+	border: 3px solid black;
+	transition: 2s;
+}
 
-
-#visit {
-	color: orange;
+.about {
+	margin: 90%;
+	color: coral;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	padding: 2% 0;
+	border-radius: 10px;
+	border: 3px solid black;
 }
