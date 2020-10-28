@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/*border: 0;*/
+	border: 100%;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,9 +64,9 @@ section {
 	border: 1px solid red;
 }
 
-.button1, .button2, .button3 {
+.button1, .button2, .button3, .button4, .button5, .button6 {
 	display: inline-block;
-	width: 30%;
+	width: 150px;
 	text-align: center;
 	padding: 5% 0;
 	border-radius: 10px;
@@ -74,6 +74,19 @@ section {
 	transition: 2s;
 	justify-content: space-between;
 	align-items: center;
+	margin: 2%;
+}
+
+.button1, .button4 {
+	background-color: pink;
+}
+
+.button2, .button5 {
+	background-color: skyblue;
+}
+
+.button3, .button6 {
+	background-color: yellow;
 }
 
 header {
@@ -90,8 +103,9 @@ h1 {
 
 header p {
 	font-size: 1.6rem;
-	width: 100%;
+	width: 50%;
 	text-align: center;
+	float: left;
 }
 
 header img{
@@ -103,8 +117,8 @@ header img{
 
 .about {
 	margin: 10%;
-	margin-left: 0%;
-	margin-right: 0%;
+	margin-left: 10%;
+	margin-right: 10%;
 	background-color: coral;
 	color: white;
 	display: inline-block;
@@ -119,7 +133,7 @@ header img{
 	margin: 10%;
 	color: #4f4f4f;
 	display: inline-block;
-	width: 70%;
+	width: 30%;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -136,7 +150,7 @@ header img{
 	margin: 10%;
 	color: #4f4f4f;
 	display: inline-block;
-	width: 70%;
+	width: 30%;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -152,16 +166,4 @@ header img{
 footer img {
 	width: 100%;
 	margin: 0 auto;
-}
-
-.button4, .button5, .button6 {
-	display: inline-block;
-	width: 30%;
-	text-align: center;
-	padding: 5% 0;
-	border-radius: 10px;
-	border: 3px solid black;
-	transition: 2s;
-	justify-content: space-between;
-	align-items: center;
 }
